@@ -15,7 +15,7 @@ var callback = function(response) {
     console.log('[-- CHUNK OF LENGTH ' + chunk.length + ' --]');
     console.log(chunk.toString());
   });
-}
+};
 
 console.log("I'm about to make the request!");
 
